@@ -18,7 +18,7 @@ public class WarriorTest {
         warrior.attackWithWeponSkill(opponent);
         warrior.attackWithWeponSkill(opponent);
 
-        int expectedHP = 100 - (int) (10 * 1.5 * 3); 
+        int expectedHP = 100 - (int) (20 * 1.5 * 3); 
         if (opponent.getHitPoint() == expectedHP) {
             System.out.println("Test passed: Damage calculation is correct.");
         } else {
